@@ -5,6 +5,7 @@ metadata:
   labels:
     app: web
 spec:
+  serviceAccountName: default
   replicas: 1
   selector:
     matchLabels:
