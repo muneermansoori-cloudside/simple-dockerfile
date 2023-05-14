@@ -11,4 +11,4 @@ RUN echo "Hello world" > /tmp/hello_world.txt
 CMD ["cat", "/tmp/hello_world.txt"]
 CMD ["sleep", "3000"]
 CMD ["echo", "it's updated"]
-CMD ["date"]
+#CMD ["date"]
